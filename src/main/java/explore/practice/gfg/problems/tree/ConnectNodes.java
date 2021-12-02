@@ -42,7 +42,7 @@ public class ConnectNodes {
 	}
 	
 	public void connect(Node root) {
-		LinkedList<Node> queue = new LinkedList<Node>();
+		LinkedList<Node> queue = new LinkedList<>();
 		connect(root, queue);
 	}
 	
